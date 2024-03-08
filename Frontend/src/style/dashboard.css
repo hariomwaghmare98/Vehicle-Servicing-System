@@ -1,0 +1,52 @@
+
+h1{
+    color: coral;
+}
+.dashboard-container {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .card {
+    display: inline-block;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    padding: 20px;
+  }
+  
+  .card-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .button-container {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 20px; 
+  }
+  
+  /* Button styles */
+  .button {
+    padding: 12px 24px; 
+    border: none;
+    border-radius: 5px;
+    font-size: 16px; 
+    cursor: pointer;
+    transition: all 0.3s ease;
+    background-color: #2196F3;
+    color: #fff;
+  }
+  
+  /* Button hover effects */
+  .button:hover {
+    background-color: #1976D2;
+  }
+  
+  /* Button specific styles */
+  .view-service-centers-button {
+    background-color: #f44336; 
+  }
+  

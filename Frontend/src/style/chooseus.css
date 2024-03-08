@@ -1,0 +1,77 @@
+
+.choose_us_text {
+    background-color: #050926;
+}
+
+.section{
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+}
+
+h1{
+    color:whitesmoke;
+    text-align: center;
+    margin-top:auto;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+    padding-top: 20px;
+    
+}
+
+p{
+    color:crimson;
+    text-align: center;
+    font-weight: 700;
+    padding-bottom: 20px;
+    font-size: large;
+}
+
+.ptag{
+  color:whitesmoke;
+}
+
+.our-services-text{
+    background-color: #050926;
+    
+    padding-bottom: 20px;
+}
+.serv-text{
+    font-weight: bolder;
+    text-align: center;
+}
+
+
+.image-overlay-container {
+    position: relative;
+    transition: transform 0.3s  ease-in-out;
+    background: rgba(0, 0, 0, 0.5);
+ 
+
+  }
+  
+  .overlay-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(85, 211, 233);
+    text-align: center;
+    font-size: 25px;
+    font-weight: bolder;
+    opacity: 3.0;
+}
+  
+.service-item{
+    transition: transform 0.3s  ease-in-out;
+    background: rgba(0, 0, 0, 0.9);
+}
+  .img-change{
+    transition: transform 0.3s  ease-in-out;
+    opacity: 0.4;
+    border-radius: 20px;
+    
+  }
+  
+  .img-change:hover{
+    transform: scale(1.1);
+  }

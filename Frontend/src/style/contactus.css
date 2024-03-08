@@ -1,0 +1,43 @@
+/* Contactus.css */
+
+.container {
+    text-align: center;
+    
+  }
+h2{
+  color:#0056b3;
+}
+
+.teamp{
+  color:black;
+}
+  .carousel-item {
+    height: 300px;
+  }
+  
+  
+  .card {
+    margin-bottom: 20px;
+  }
+  
+  .card-img-top {
+    height: 200px; 
+    object-fit: cover; 
+  }
+  
+  .card-title {
+    font-size: 1.5rem; 
+  }
+  
+  .card-text {
+    color: #555;
+  }
+  .btn-primary {
+    background-color: #007bff; 
+    border-color: #007bff;
+  }
+  .btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #0056b3; 
+  }
+  

@@ -1,0 +1,90 @@
+/* Add these styles to your CSS file or style section */
+
+/* Style for the table */
+.Table {
+    width: 100%;
+    margin-bottom: 1rem;
+    color: #212529;
+    border-collapse: collapse;
+  }
+  
+  /* Style for table header */
+  .Table thead th {
+    vertical-align: bottom;
+    border-bottom: 2px solid #dee2e6;
+  }
+  
+  /* Style for table rows */
+  span{
+     color:#f9a826;
+    font-weight: bold ;
+  }
+
+  .CardTitle{
+     color: blue; 
+     margin-bottom: '15px';
+     font-size: 35px;
+  }
+
+  .Table tbody+tbody {
+    border-top: 2px solid #dee2e6;
+  }
+  
+  /* Style for table data cells */
+  .Table td, .Table th {
+    padding: 0.75rem;
+    vertical-align: top;
+    border-top: 1px solid #dee2e6;
+  }
+  
+  /* Style for striped rows */
+  .Table tbody tr:nth-child(odd) {
+    background-color: rgba(0, 0, 0, 0.05);
+  }
+  
+  /* Style for hover effect */
+  .Table tbody tr:hover {
+    background-color: rgba(0, 123, 255, 0.1);
+  }
+  
+  /* Style for buttons in the last column */
+  .Table tbody td:last-child button {
+    margin-right: 2px;
+  }
+  
+  /* Style for primary button */
+  .btn-primary {
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+  }
+  
+  .btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+  }
+  
+  /* Style for outline primary button */
+  .btn-outline-primary {
+    color: #007bff;
+    border-color: #007bff;
+  }
+  
+  .btn-outline-primary:hover {
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+  }
+  
+  /* Style for danger button */
+  .btn-danger {
+    color: #fff;
+    background-color: #dc3545;
+    border-color: #dc3545;
+  }
+  
+  .btn-danger:hover {
+    background-color: #bd2130;
+    border-color: #bd2130;
+  }
+  

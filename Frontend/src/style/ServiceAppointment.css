@@ -1,0 +1,61 @@
+/* Adjust the margin for header and footer */
+.header {
+    margin-bottom: 20px; /* Add space below the header */
+  }
+  
+  .footer {
+    margin-top: 20px; /* Add space above the footer */
+  }
+  
+  /* Adjust the padding for the container */
+  .serviceform {
+    padding-top: 20px; /* Add space above the form */
+    padding-bottom: 20px; /* Add space below the form */
+  }
+  
+  .registration-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .registration-form {
+    max-width: 400px;
+    width: 100%;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  
+  button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
